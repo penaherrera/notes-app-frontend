@@ -1,0 +1,67 @@
+.note-form-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title-label,
+  .content-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button,
+  .goBack-link {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .create-link {
+    background-color: #27ae60;
+  }
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+  }
+  
+  button:hover,
+  .goBack-link:hover {
+    background-color: #2980b9;
+  }
+  
+  .buttons-container {
+    align-items: center;
+  }
+  
+  .button-container {
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  
+  .goBack-link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+  }
+  
